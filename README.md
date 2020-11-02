@@ -8,7 +8,7 @@ by  Lynn Chen     Nov, 2, 2020
 
 At first , I thought it will be easy if I can complete this assignment following Tony's reminder in the starter code step by step. However ,I met some problems in the end when I created the image card for each image and appended the `<figure>` card to the `outputHTML` variable. I spent much time doing the code of the paths of images.  I'm not too familiar with JS syntax till now so the images shown on live pages were broken. I considered using "src= ${animal.imagePath}" in the beginning, then I changed it to "img src="images/${animal.fileName}" " from Tony's sample code in class. Both of them can make the images show well.
 
- I linked images to Lorem Picsum using "<a href="${item.title.toLowerCase()}.html">Lorem Picsum Link</a>", but there was an issue that it showed "Cannot GET /puppy.html" on the live server when I clicked the links. I debugged it many times before it showed up. Therefore, I decided to try an easier way as "<a href="${animal.url}">Lorem Picsum Link</a>". Good, it worked well, but I do not know whether this way is right. ：D
+ I linked images to Lorem Picsum using "${item.title.toLowerCase()}.html" in the < a href=> tag, but there was an issue that it showed "Cannot GET /puppy.html" on the live server when I clicked the links. I debugged it many times before it showed up. Therefore, I decided to try an easier way as "${animal.url}" in the < a href=> tag. Good, it worked well, but I do not know whether this way is right. ：D
 
 After starting JS, I found our course is much harder than before. Even though the coding works well sometimes, I do not totally understand the meaning of some coding when I just copy them by following Tony's sample code or the information online. What I need is more time and more try.
 
@@ -36,7 +36,7 @@ like: [Simple Grid Checker Pattern](https://codepen.io/browsertherapy/pen/ExKJob
 
 ## Links
 
-- GH repo:
-- GH Pages demo:
+- GH repo:https://github.com/yanlinchen1985/cpnt262-a2
+- GH Pages demo:https://yanlinchen1985.github.io/cpnt262-a2/
 
 Thank you for teaching!
