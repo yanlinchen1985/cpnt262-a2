@@ -19,7 +19,6 @@ Include any CSS you need to:
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   
   justify-content: center;
-  align-items: center;
 
   /*limit the max width of the gallery;*/
   max-width: 1600px;
